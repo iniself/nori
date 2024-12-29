@@ -11,22 +11,22 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "nori",
-# 		"logo": "/assets/nori/logo.png",
-# 		"title": "Nori",
-# 		"route": "/nori",
-# 		"has_permission": "nori.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+    {
+        "name": "nori",
+        "logo": "/assets/nori/img/nori.png",
+        "title": "Nori",
+        "route": "/app",
+        "has_permission": "nori.api.permission.has_app_permission",
+    }
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/nori/css/nori.css"
-# app_include_js = "/assets/nori/js/nori.js"
+app_include_js = "/assets/nori/js/nori.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/nori/css/nori.css"
@@ -241,4 +241,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
