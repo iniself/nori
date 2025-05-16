@@ -83,12 +83,12 @@ app_include_js = "/assets/nori/js/nori.js"
 # ------------
 
 # before_install = "nori.install.before_install"
-# after_install = "nori.install.after_install"
+after_install = "nori.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "nori.uninstall.before_uninstall"
+before_uninstall = "nori.uninstall.before_uninstall"
 # after_uninstall = "nori.uninstall.after_uninstall"
 
 # Integration Setup

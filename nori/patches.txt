@@ -4,6 +4,3 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
-nori.patches.v1_0.customize_user_doctype
-nori.patches.v1_0.add_user_number
-nori.patches.v1_0.init_nori_settings
